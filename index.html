@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bird Jump</title>
+
+    <!-- Fonte Cartoonesca estilo Logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Canvas Principal em Tela Cheia -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Overlay de Interface UI -->
+    <div id="uiOverlay" class="ui-layer">
+
+        <!-- Tela de Início / Game Over / Vitória -->
+        <div id="menuCard" class="menu-card">
+            <div id="menuSubtitle" class="menu-subtitle">Clique ou aperte Espaço para Voar!</div>
+            <button id="startButton" class="cartoon-btn">COMEÇAR JOGO</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
